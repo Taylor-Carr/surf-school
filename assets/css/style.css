@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.4); /* White translucent background */
+    border-radius: 20px;
+    padding: 3px 40px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo within its container */
+    flex: 0 1 auto; /* Allow the logo container to shrink or grow based on its content */
+}
+.logo-img {
+    height: 30px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 70px;
+}
+
+.left-nav {
+    justify-content: flex-end; /* Align left navigation items to the end */
+}
+
+.right-nav {
+    justify-content: flex-start; /* Align right navigation items to the start */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.nav-links a:hover {
+    color: white;
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+.get-in-touch {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #D37120;
+    font-weight: 600;
+    font-size: 12px;
+    position: absolute;
+    right: 40px; /* Position the button on the right */
+}
+
+.get-in-touch:hover {
+    border: 1px solid #E36F03;
+}
+
+.main-content {
+    max-width: 500px; /* Adjust this value as needed */
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 3.2rem; /* Adjust the font size as needed */
+    font-weight: 500;
+    font-family: 'Lato';
+    text-align: left;
+    margin: 0;
+    line-height: 1.2; /* Adjust the line height for better spacing between lines */
+    color: white;
+    letter-spacing: 1px;
+}
+
+.main-image {
+    width: 100%; /* Adjust to the desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pricing-button {
+    background-color: rgba(255, 255, 255, 0.4); /* White translucent background */
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 8px 28px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stacked-text {
+    line-height: 25px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em; /* Add letter spacing */
+    max-width: 300px; /* Limit width to ensure stacking */
+    margin-bottom: 50px; /* Add some space below this paragraph */
+}
+
+.highlight-text {
+    color: black;
+    font-weight: 600; 
+}
+
+.footer-text {
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+
+.scroll-text {
+    margin: 5px 0;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.scroll-icon {
+    color: #D37120;
+    margin-left: 5px;
+}
+
+.footer-img {
+    height: 50px;
+}
+.scroll-button {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4); /* Adjust color as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.scroll-button i {
+    color: #C888DB; /* Adjust color as needed */
+    font-size: 20px; /* Adjust size as needed */
+}
+
+.scroll-button:hover {
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust hover color as needed */
+}
